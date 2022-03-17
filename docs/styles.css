@@ -1,6 +1,5 @@
 body{
   margin: 0 auto;
-  max-width: 50em;
   color: #555;
   background-color: #EEEEEE; /*Light gray*/
   font-family:"Georgia", serif;
@@ -29,3 +28,40 @@ p {
   padding: 1em;
   vertical-align: text-bottom;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #fff;
+  background-color: #e7e6f8;
+  height: 200px;
+  flex: 1;
+}
+
+.main-nav {
+  padding: 20px 0;
+  display: flex;
+}
+
+.nav-item {
+  display: flex;
+  border: 1px solid #EEEEEE;
+  background-color: #e7e6f8;
+  height: 100px;
+  flex: 1;
+  justify-content:center;
+  align-items: center;
+}
+
+.nav-item a:hover {
+  display: flex;
+  border: 1px solid #EEEEEE;
+  height: 100px;
+  flex: 1;
+  justify-content:center;
+  align-items: center;
+  background-color: #340374;
+  color: #eeeeee;
+}
+
+a { text-decoration: none; }
