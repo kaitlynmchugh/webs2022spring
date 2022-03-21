@@ -1,3 +1,9 @@
+# Welcome to my Website Portfolio! 
+
+For my web project, I decided to create a portfolio that combines everything I've been working on for the past few years in college, including the projects we've been working on in this class. This website serves as a much more informal and extensive "resume" showcasing everything from chemistry research to my hobbies! The pages include information about me, my research, art and media I've created, and a formal resume page. 
+
+#
+
 # Project 3: Website Portfolio
 
 Your task in this unit is to **build a multi-page website using basic html and css files** — as opposed to a site manager like WordPress or Wix — **along with any media assets you wish to embed.** (Any JavaScript or animation you want to add for interactivity is welcome, but above and beyond expectations.) In assigning this, I have two main goals for you:
