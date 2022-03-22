@@ -5,10 +5,51 @@
   box-sizing: border-box;
 }
 
-body{
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.name {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #eeeeee;
+  font-size: 48px;
+  font-family:"Georgia", serif;
+  font-weight: normal;
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+.subtitle {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #eeeeee;
+  font-size: 36px;
+  font-family:"Georgia", serif;
+  font-weight: normal;
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+.header {
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+p {
   margin: 0 auto;
   color: #555;
-  background-color: #EEEEEE; /*Light gray*/
   font-family:"Georgia", serif;
   font-weight: normal;
   line-height: 1.5;
