@@ -18,8 +18,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: #eeeeee;
-  font-size: 48px;
-  font-family:"Georgia", serif;
+  font-size: 80px;
+  font-family:"Montserrat", sans-serif;
+  text-transform: uppercase;
   font-weight: normal;
   margin-top: 1em;
   padding-top: 1em;
@@ -31,7 +32,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: #eeeeee;
-  font-size: 36px;
+  font-size: 60px;
   font-family:"Georgia", serif;
   font-weight: normal;
   margin-top: 1em;
@@ -229,11 +230,10 @@ table th {
 }
 
 .nav-item {
-  font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   display: flex;
-  font-size: 18px;
+  font-size: 16px;
   border: 1px solid #EEEEEE;
   background-color: #e7e6f8;
   height: 50px;
@@ -249,7 +249,7 @@ table th {
   flex: 1;
   justify-content:center;
   align-items: center;
-  background-color: #340374;
+  background-color: #340374 ;
   color: #eeeeee;
 }
 
@@ -257,7 +257,7 @@ a { text-decoration: none; }
 
 /* social media icons styling */
 .social-icons {
-    font-size: 36px;
+    font-size: 50px;
     cursor: pointer;
 }
 
