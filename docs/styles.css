@@ -79,6 +79,7 @@ h2 {
   font-size: 28px;
   padding: 5px;
   margin: 5px 0px 5px 5px;
+  text-align: left;
 }
 
 h3 {
@@ -86,6 +87,7 @@ h3 {
   font-size: 18px;
   color: #444343;
   margin: 5px 0px 5px 10px;
+  text-align: left;
 }
 
 .center {
@@ -105,22 +107,22 @@ h3 {
 }
 
 .about {
-  width: 2000px;
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .about-item {
-  width: 600px;
+  width: 32%;
   padding: 5px;
+  margin: 1px;
   background: #e7e6f8;
-  margin: 6px 6px;
   justify-content: center;
 }
 
 .about-image {
-  padding: 2px 2px 2px 225px  ;
+  padding: 2px 2px 2px 35%  ;
 }
 
 .research, .art, .education {
@@ -195,26 +197,7 @@ h3 {
 }
 
   /* research styling */
-  .research-container {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-  }
 
-  .research {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .research-item {
-    width: 600px;
-    padding: 5px;
-    background: #e7e6f8;
-    margin: 6px 6px;
-    justify-content: center;
-  }
 
   /* art and media styling */
 .audio, .visual, .painting, .film {
@@ -250,14 +233,14 @@ audio {
 }
 
 .film {
-  width: 2000px;
+  width: 98%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .film-item {
-  width: 900px;
+  width: 49%;
   padding: 5px;
   background: #e7e6f8;
   margin: 6px 6px;
