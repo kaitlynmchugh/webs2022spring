@@ -19,7 +19,7 @@
   transform: translate(-50%, -50%);
   color: #ffffff;
   font-size: 100px;
-  font-family:"Courier New", serif;
+  font-family:"Raleway", serif;
   text-transform: uppercase;
   font-weight: normal;
   margin-top: 1em;
@@ -38,18 +38,17 @@
 p {
   margin: 0 auto;
   color: #555;
-  font-family:"Georgia", serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.5;
   padding: 1em 4em 1em 1em;
   text-align: justify;
   margin: 2px;
+  font-family:"Raleway", serif;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family:"Georgia", serif;
   font-weight: normal;
 }
 
@@ -61,7 +60,7 @@ strong {
 }
 
 h2 {
-  font-family:"Georgia", serif;
+  font-family:"Raleway", serif;
   font-weight: bold;
   font-size: 28px;
   padding: 5px;
@@ -70,7 +69,7 @@ h2 {
 }
 
 h3 {
-  font-family:"Courier New", serif;
+  font-family:"Roboto Slab", serif;
   font-size: 18px;
   color: #444343;
   margin: 5px 0px 5px 10px;
@@ -115,7 +114,6 @@ h3 {
 .research, .art, .education {
   font-size: 40px;
   padding: 0em 0em 0em 0.5em;
-  font-family:"Courier New", serif;
 }
 
 /* Slideshow container */
@@ -198,7 +196,6 @@ h3 {
   text-align: center;
   height: 100px;
   line-height: 100px;
-  font-family:"Courier New", serif;
   font-size: 70px;
 }
 
@@ -243,7 +240,7 @@ audio {
   width: 100%
 }
   /* resume styling */
-.work, .research, .leader, .awards {
+.education, .work, .research-exp, .leader, .awards {
   background: #e7e6f8;
   border: 1px
   display: inline;
@@ -254,7 +251,7 @@ audio {
 }
 
 table {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
   border-collapse: collapse;
   width: 100%;
   padding: 10px;
@@ -290,9 +287,9 @@ table th {
 }
 
 .nav-item {
-  font-family: 'Courier New', serif;
   display: flex;
   font-size: 20px;
+  font-weight: bold;
   border: 1px solid #EEEEEE;
   background-color: #e7e6f8;
   height: 50px;
