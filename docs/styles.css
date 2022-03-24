@@ -14,26 +14,13 @@
 /* Centered text */
 .name {
   position: absolute;
-  top: 40%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
   font-size: 100px;
   font-family:"Courier New", serif;
   text-transform: uppercase;
-  font-weight: normal;
-  margin-top: 1em;
-  padding-top: 1em;
-}
-
-.subtitle {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #ffffff;
-  font-size: 60px;
-  font-family:"Georgia", serif;
   font-weight: normal;
   margin-top: 1em;
   padding-top: 1em;
