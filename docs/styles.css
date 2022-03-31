@@ -237,7 +237,7 @@ h5 {
 .art-type {
   background: #016074;
   color: #ffffff;
-  margin: 20px 5px 5px 5px;
+  margin: 10px 5px 0px 5px;
   text-align: center;
   height: 100px;
   line-height: 100px;
@@ -274,8 +274,15 @@ audio {
   padding: 5px;
   background: #e7e6f8;
   margin: 6px 6px;
+  align-items: center;
   justify-content: center;
   text-align: center
+}
+
+.media-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .iframe {
@@ -342,8 +349,8 @@ table th {
 }
 /* navigation bar styling */
 .main-nav {
-  padding: 10px 0;
   display: flex;
+padding: 0px 0px 5px 0px;
 }
 
 .nav-item {
@@ -379,14 +386,17 @@ a { text-decoration: none; }
 
 .fa-github:hover {
     color: #340374;
+    background-color: #000000;
 }
 
 .fa-linkedin:hover{
   color: #0e76a8;
+  background-color: #000000;
 }
 
 .fa-instagram:hover {
   color: #bc2a8d;
+  background-color: #000000;
 }
 
 .fab {
@@ -397,4 +407,17 @@ a { text-decoration: none; }
 #footer {
     background-color: #000000;
     text-align: center;
+}
+
+.credits {
+  text-align: center;
+  justify-content:center;
+  align-items: center;
+  color: #340374;
+}
+
+
+a:hover {
+  color: #016074;
+  font-weight: bold;
 }
