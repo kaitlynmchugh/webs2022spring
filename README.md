@@ -19,6 +19,34 @@ https://kaitlynmchugh.github.io/webs2022spring/
 
 # 
 
+# Reflection 
+Looking back on all of the projects we’ve completed this semester, I think this project was definitely the biggest challenge for me, but also the most satisfying and rewarding. This was my first time building a website from scratch, so I was a little overwhelmed at first with the amount of information to remember and use throughout the tutorials and site building process. I think I was definitely able to meet all of the baseline criteria, along with a few of the aspirational goals. 
+
+In terms of the baseline criteria, my site is separated into four pages, including the home page, research page, art and media page, and resume page. On the pages, I’ve used arrangement and colors to guide the viewers’ attention, by separating each project by the style and separating the projects from the descriptions. I decided to use colors that were reflected in the header as the background for my text and images to make the site look more tied together overall. I also thought that the purple and teal made a pleasing color combination. The style between the four pages is organized and consistent, as I have implemented a sitewide css stylesheet. This css sheet keeps the colors and fonts consistent. I was very unsure about what fonts to use and what would go well together. This was something I really struggled with while building my website, as it never really looked right to me. However, after doing chapter 14 I had more background knowledge on how to include more/different fonts and it really improved the look of my site. The navigation between the pages is clear, and there are no dead ends. I have also included multiple usable images as seen in the header and the icons on the about page with alt text. A full list of these assets and attributions can be found in assets.md. These assets are credits with a link to my citations final on GitHub, shown on the About page.  I’ve also used many meaningful commits messages to help keep track of each time I update and save my site. Finally, I’ve published my website using GitHub pages at the link: https://kaitlynmchugh.github.io/webs2022spring/. 
+
+I’ve also met several of the aspirational criteria, particularly that involving media files. Because this website is a portfolio to display my projects, I’ve included a variety of different media types. On the research page, I have included a video lab report in the form of a playable video element. On the art and media page, I have included my audio narrative in the form of a playable audio element. I’ve also included iframe elements to display videos from Vimeo (sadly the computer that these movies were stored on was broken and they were lost to all except this Vimeo account). 
+
+In terms of coding, I’ve used flexbox for all of my pages to create flexible grid layouts on my pages that condense with smaller window or screen sizes. I think using flexboxes really saved the appearance of my site. 
+![preview screenshot](https://user-images.githubusercontent.com/75503004/161857540-cf321ef9-d77d-4ec8-81da-0da53aa139e5.PNG)
+
+This is a screenshot from my preview, where I was just using p elements to create a background for the text. 
+
+![first-draft-screenshot-home](https://user-images.githubusercontent.com/75503004/161857522-3c3da469-51b5-4e7c-8b86-5c42b20f38a3.PNG)
+
+This screenshot shows the result after I added flexboxes (and a header image), so each section is now equally distributed across the page, and adjusted as you adjust your browser window. I also included some media queries to help with the appearance of the site in smaller windows and screen sizes. 
+
+I also implemented JavaScript to create rotating slideshows on my home page and art and media page. This is definitely the most complicated feature on my site which is pretty simple in design, but I think it tied everything together nicely.  
+
+![comments 1](https://user-images.githubusercontent.com/75503004/161857468-1997f07e-b15d-4cc7-8b0a-2814b2a51f34.PNG)
+
+In response to the peer review, I decided to work on centering my images and media elements vertically. I was struggling to do that on my research page, but I was able to accomplish it by separating the flexboxes containing media from those containing text with the class “media,” as shown below. 
+![centered images](https://user-images.githubusercontent.com/75503004/161857476-b15beeab-dd11-4e1e-8462-895a1afa3337.PNG)
+
+
+In conclusion, I feel that I successfully satisfied the baseline criteria, along with some of the aspirational goals. This was definitely the most challenging project of the semester for me, but it was also the most rewarding. I will definitely use this website to continue to display my research and other projects in the future. 
+
+#
+
 # Project 3: Website Portfolio
 
 Your task in this unit is to **build a multi-page website using basic html and css files** — as opposed to a site manager like WordPress or Wix — **along with any media assets you wish to embed.** (Any JavaScript or animation you want to add for interactivity is welcome, but above and beyond expectations.) In assigning this, I have two main goals for you:
