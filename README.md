@@ -2,6 +2,8 @@
 
 For my web project, I decided to create a portfolio that combines everything I've been working on for the past few years in college, including the projects we've been working on in this class. This website serves as a much more informal and extensive "resume" showcasing everything from chemistry research to my hobbies! The pages include information about me, my research, art and media I've created, and a formal resume page. 
 
+https://kaitlynmchugh.github.io/webs2022spring/
+
 #
 
 # Assets List - Full Citations 
